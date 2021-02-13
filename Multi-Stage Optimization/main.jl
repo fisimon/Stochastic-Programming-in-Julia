@@ -113,14 +113,17 @@ nn = "x = " .* string.(res_x) .* "\n y = " .* string.(res_y)
 
 
 
-default(size=(2000, 2000))
+default(size=(1000, 1000))
 
 graphplot(A, curves=false,
           axis_buffer=0.15,
           fontsize= 10,
           root=:right,
-          nodesize = 0.02,
+          nodesize = 0.025,
           nodeshape = :circle,
           method=:tree,
           edgelabel = edgel,
           names = nn)
+
+
+png("decisions.png")
