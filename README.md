@@ -1,5 +1,5 @@
 # Stochastic-Programming-in-Julia
-Examples of stochastic programming method solved with Julia and JuMP
+Examples of stochastic programming methods solved with Julia and JuMP
 
 
 ### 1.- Multi-Stage
